@@ -119,8 +119,9 @@ textarea {
   width: 100%;
   border-radius: 5px;
   border: 0;
+  color: white;
+  background-color: orange;
   cursor: pointer;
-  color: orange;
   font-size: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -129,7 +130,7 @@ textarea {
   font-weight: 700;
 }
 [type="submit"]:hover {
-  background: rgb(233, 7, 7);
+  opacity: 0.7;
 }
 
 footer {
@@ -143,6 +144,28 @@ footer {
   text-align: center;
   padding: 20px;
   font-weight: bold;
+}
+
+.blackboard-box {
+  background: #104300;
+  margin: auto;
+  padding: auto;
+  border: 8px solid #a60;
+  box-shadow: 2px 2px 4px #999, 2px 2px 2px #020 inset;
+  width: 200px;
+  height: 200px;
+}
+
+.blackboard-box p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-shadow: 0 0 2px #fff;
+}
+
+#date {
+  text-align: center;
+  font-size: 80px;
 }
 
 @media (min-width: 900px) {
@@ -178,15 +201,4 @@ footer {
     width: 50%;
     width: calc(50% - 32px);
   }
-
-  /*.members ul{
-          width: 800px;
-          margin: 0 auto;
-          display:flex;
-          justify-content: space-between;
-      }
-  
-      .members li{
-          width: 250px;
-      }*/
 }
